@@ -1,0 +1,54 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header related styles */
+.header {
+    background-color: #FCEEF1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Banner related styles */
+.banner {
+    /* padding:0; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #ACA3A5;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.btn-flower {
+    border: 0;
+    background-color: #E55473;
+    border-radius: 7px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+
+}
+
+.banner .flower-pic {
+    width: 570px;
+    height: 700px;
+    padding-top: 50px;
+}
