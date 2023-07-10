@@ -12,7 +12,6 @@ body {
 
 /* Banner related styles */
 .banner {
-    /* padding:0; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -53,6 +52,8 @@ body {
     padding-top: 50px;
 }
 
+/* Main related styles */
+
 .flowers {
     background-color: #FFF;
     text-align: center;
@@ -74,4 +75,69 @@ body {
     font-weight: 400;
     width: 594px;
     margin: 0 auto;
+}
+
+.flowers-container {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 0 240px;
+}
+
+.text-line {
+    display: flex;
+    gap: 307px;
+    text-align: center;
+}
+
+.text-line li {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.deal-container {
+    background-color: #FEF6F8;
+    background-size: cover;
+    margin-top: 128px;
+    display: flex;
+    gap: 215px;
+    padding-right: 400px;
+    padding-left: 400px;
+}
+
+.sale-content {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.sale-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.sale-description {
+    color: #27272799;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.btn-sign {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px 40px;
 }
