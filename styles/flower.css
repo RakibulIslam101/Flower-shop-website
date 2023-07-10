@@ -52,3 +52,26 @@ body {
     height: 700px;
     padding-top: 50px;
 }
+
+.flowers {
+    background-color: #FFF;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    color: #ACA3A5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 594px;
+    margin: 0 auto;
+}
