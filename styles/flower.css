@@ -107,13 +107,14 @@ body {
     margin-top: 128px;
     display: flex;
     gap: 215px;
-    padding-right: 400px;
-    padding-left: 400px;
+    padding-right: 300px;
+    padding-left: 300px;
 }
 
 .sale-content {
     text-align: center;
     padding-top: 120px;
+    padding-bottom: 20px;
 }
 
 .sale-title {
@@ -140,4 +141,41 @@ body {
     font-style: normal;
     font-weight: 700;
     padding: 20px 40px;
+}
+
+.instagram-container {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.instagram-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.instagram-description {
+    color: #27272799;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+
+.images-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    margin-top: 48px;
+    width: 1464px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.picture {
+    width: 342px;
+    height: 396px;
 }
